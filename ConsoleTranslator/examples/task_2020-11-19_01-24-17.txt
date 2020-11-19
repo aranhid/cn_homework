@@ -1,0 +1,15 @@
+Using the Microsoft Azure API to implement a text translation app. The documentation is available at https://docs.microsoft.com/ru-ru/azure/cognitive-services/translator/reference/v3-0-reference
+
+Demonstration of work with the API through the curl program is shown in the video https://youtu.be/3tZHJmT0nfA
+
+Access code 82e622ccc27b4ad0af0918182329a742 and the westeurope region
+
+The source is taken from the file
+The language is set by the command line option
+The output in a separate text file (the name of the file the program forms itself or is set at the start)
+Multi-line text support required
+The keys to the API are set as variables in the program
+
+Java: https://git.io/JTFoG, the program can be written in any language (Python, PHP, C)
+
+As an answer, apply: source code and an example of the program working for at least three lines of translation
