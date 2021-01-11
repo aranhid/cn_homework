@@ -1,0 +1,5 @@
+check process nginx with pidfile /var/run/nginx.pid
+    start program = "/etc/init.d/nginx start" with timeout 60 seconds
+    stop program = "/etc/init.d/nginx stop"
+    
+    if 1 restart within 1 cycle then exec "/usr/share/monit/monit_alert.py" as uid "aranhid"
